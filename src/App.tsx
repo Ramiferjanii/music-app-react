@@ -1,4 +1,4 @@
-import { Flex, Text, Button } from "@radix-ui/themes";
+import { Flex, Text, Button, Checkbox } from "@radix-ui/themes";
 const App = () => {
   return (
     <div>
@@ -61,14 +61,7 @@ const App = () => {
 		</Button>
 		<Button disabled>Disabled</Button>
 	</Flex>
-	<Button variant="ghost">Ghost button</Button>
-	<Link href="#" size="2">
-		Link
-	</Link>
-	<Checkbox defaultChecked />
-	<Switch defaultChecked />
-	<Switch defaultChecked disabled />
-</Flex>
+
     </div>
   )
 }
